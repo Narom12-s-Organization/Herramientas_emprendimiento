@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Signtrad{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <!-- Enlaza tu hoja de estilos aquí -->
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li><a href="#features">Características</a></li>
+                <li><a href="#download">Descargar</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; {% now "Y" %} Nombre de la Aplicación Móvil</p>
+    </footer>
+</body>
+</html>

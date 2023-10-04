@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+#hero {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Estilos de las características principales */
+#features {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Estilos de la sección de descarga */
+#download {
+    background-color: #2ecc71;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#download h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#download p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Estilos de la sección de contacto */
+#contact {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #c0392b;
+}

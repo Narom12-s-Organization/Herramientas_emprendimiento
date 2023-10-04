@@ -1,7 +1,6 @@
 # Herramientas_
 
-Nuestro proyecto, consiste en la creación de un sistema web el cual permita la venta de componentes de computadores mediante la creacion de ordenes de venta.
-
+Nuestro proyecto, consiste en la creación de una pagina de aterrizaje la cual promocione nuestra aplicación móvil "SignTrad" y permita su difusión.
 ## Requisitos
 
 Antes de comenzar, asegúrate de tener instalado Python y pip en tu sistema.

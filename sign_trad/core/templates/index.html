@@ -1,25 +1,34 @@
 {% extends 'base.html' %}
 {% load static%}
-{% block title %}Nombre de la Aplicación Móvil{% endblock %}
+{% block title %}SignTrad{% endblock %}
 
 {% block content %}
 <section id="hero">
-    <h1>Bienvenido a SignTrad</h1>
-    <p>La mejor solución para tus necesidades comunicativas.</p>
+    <div class="tituloimagen" style="background-image: url('{% static 'images/wallpaper.jpg' %}');">
+    <h1>SignTrad</h1>
+    <p>Rompiendo las barreras del silencio</p>
+    <p>donde cada gesto cuenta.</p>
     <a href="#download" class="cta-button">Descargar Ahora</a>
+    
+    </div>
 </section>
 
 <section id="features">
-    <h2>Características Principales</h2>
+    <h1>Características Principales</h1>
     <div class="feature">
-        <img src="feature-icon-1.png" alt="Característica 1">
-        <h3>Característica 1</h3>
-        <p>Descripción de la característica 1.</p>
+        <img src="{% static 'images/caracteristica1.png' %}" alt="Característica 1">
+        <div class='texto1'>
+        <h2>Traducción Instantánea</h2>
+        <p>Nuestra aplicación ofrece una traducción instantánea y precisa del lenguaje de señas en tiempo real. Convierte los gestos y movimientos en un lenguaje comprensible al instante, eliminando las barreras de comunicación entre personas que usan lenguaje de señas y aquellos que no lo usan. Nunca ha sido tan fácil comunicarse y entenderse mutuamente</p>
+        </div>
     </div>
-    <div class="feature">
-        <img src="feature-icon-2.png" alt="Característica 2">
-        <h3>Característica 2</h3>
-        <p>Descripción de la característica 2.</p>
+    <hr class="divider"> <!-- Línea divisoria -->
+    <div class="feature reverse">
+        <img src="{% static 'images/caracteristica2.jpg' %}" alt="Característica 2">
+        <div class='texto2'>
+        <h2>Compatibilidad Multilingüe</h2>
+        <p>Nuestra aplicación es compatible con una amplia gama de idiomas de señas de todo el mundo. Ya sea que estés utilizando el lenguaje de señas americano (ASL), lenguaje de señas británico (BSL), lenguaje de señas japonés (JSL) u otros, nuestra aplicación te ofrece la capacidad de traducir y comunicarte en múltiples idiomas de señas. Rompemos las barreras lingüísticas para garantizar que todos puedan comunicarse y comprenderse sin importar el idioma de señas que utilicen</p>
+        </div>
     </div>
     <!-- Agrega más características aquí -->
 </section>

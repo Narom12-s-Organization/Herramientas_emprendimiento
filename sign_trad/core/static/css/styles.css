@@ -1,32 +1,37 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #25252522;
     margin: 0;
     padding: 0;
+}
+h1 {
+    font-family: 'Roboto Slab', serif;
+
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 /* Estilos del encabezado */
 #hero {
-    background-color: #3498db;
+    background-color: #ffffff;
     color: #fff;
     text-align: center;
-    padding: 100px 0;
+
 }
 
 #hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 60px;
+    margin-bottom: 110px;
 }
 
 #hero p {
-    font-size: 18px;
+    font-size: 30px;
     margin-bottom: 30px;
+    font-family: 'Young Serif', serif;
 }
 
 .cta-button {
@@ -41,33 +46,48 @@ body {
 
 /* Estilos de las características principales */
 #features {
+
     background-color: #fff;
     padding: 50px 0;
+    
+}
+
+#features h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Young Serif', serif;
 }
 
 .feature {
     text-align: center;
     margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between; /* Esto alinea la imagen a la derecha */
+    align-items: center; /* Esto centra verticalmente el contenido */
+    margin-bottom: 40px; /* Aumentamos el espacio entre características */
+}
+
+.feature.reverse {
+    flex-direction: row-reverse; /* Invierte el orden de los elementos en filas */
 }
 
 .feature img {
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 500px;
     margin-bottom: 20px;
-}
-
-.feature h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    margin-left: 20px; /* Agregamos un margen a la izquierda de la imagen */
 }
 
 .feature p {
-    font-size: 16px;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    flex: 1; /* Esto hace que el texto ocupe el espacio restante */
+    margin: 0; /* Quitamos los márgenes predeterminados */
 }
 
 /* Estilos de la sección de descarga */
 #download {
-    background-color: #2ecc71;
+    background-color: #385a9bb7;
     color: #fff;
     text-align: center;
     padding: 100px 0;
@@ -128,4 +148,63 @@ form button[type="submit"] {
 
 form button[type="submit"]:hover {
     background-color: #c0392b;
+}
+
+
+/* navbar */
+.navbar {
+    background-color: #333; /* Color de fondo de la barra */
+    color: #fff; /* Color del texto en la barra */
+    padding: 10px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Comfortaa', cursive;
+    transition: color 0.3s; /* Transición suave del color al pasar el mouse */
+}
+
+.tituloimagen {
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover; /* Opcional: ajusta el tamaño de la imagen de fondo */
+}
+
+.texto1 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.texto2 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.divider {
+    border: 1px solid #ccc; /* Establece el estilo de la línea */
+    margin: 20px auto; /* Alinea la línea horizontalmente y agrega espacio */
+    width: 80%; /* Ancho de la línea */
 }

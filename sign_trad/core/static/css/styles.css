@@ -85,69 +85,104 @@ h1 {
     margin: 0; /* Quitamos los márgenes predeterminados */
 }
 
-/* Estilos de la sección de descarga */
 #download {
-    background-color: #385a9bb7;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
+    background-color: #f0f0f0; /* Cambia el color de fondo a un tono más claro */
+    padding: 30px 0; /* Añade espacio alrededor de la sección */
+    text-align: center; /* Centra el contenido horizontalmente */
 }
 
 #download h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    color: #333; /* Cambia el color del título */
+    font-size: 24px; /* Ajusta el tamaño de fuente del título */
 }
 
 #download p {
-    font-size: 18px;
-    margin-bottom: 30px;
+    color: #666; /* Cambia el color del texto descriptivo */
+    font-size: 18px; /* Ajusta el tamaño de fuente del texto descriptivo */
+    margin: 20px 0; /* Añade espacio entre el texto y los botones */
 }
+
+.download-buttons {
+    text-align: center; /* Centra los botones horizontalmente */
+}
+
+.app-store-button,
+.play-store-button {
+    display: inline-block; /* Muestra los botones en línea uno al lado del otro */
+    margin: 10px; /* Agrega margen entre los botones */
+}
+
+.app-store-button img,
+.play-store-button img {
+    width: 150px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
+
 
 /* Estilos de la sección de contacto */
 #contact {
-    background-color: #fff;
-    padding: 50px 0;
+    background-color: #f0f0f0; /* Cambia el color de fondo a un tono más claro */
+    padding: 50px 0; /* Añade espacio alrededor de la sección */
+    text-align: center; /* Centra el contenido horizontalmente */
 }
 
 #contact h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    color: #333; /* Cambia el color del título */
+    font-size: 36px; /* Ajusta el tamaño de fuente del título */
+    margin-bottom: 20px; /* Agrega espacio debajo del título */
 }
 
 #contact p {
-    font-size: 18px;
-    margin-bottom: 30px;
+    color: #666; /* Cambia el color del texto descriptivo */
+    font-size: 18px; /* Ajusta el tamaño de fuente del texto descriptivo */
+    margin-bottom: 30px; /* Agrega espacio debajo del texto descriptivo */
 }
 
 form label {
     display: block;
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Agrega espacio debajo de las etiquetas de los campos */
 }
 
 form input[type="text"],
-form input[type="email"],
-form textarea {
-    width: 100%;
+form input[type="email"]{
+    width: 80%; /* Cambia el ancho de los campos de entrada */
+    max-width: 400px; /* Establece un ancho máximo para los campos */
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Agrega espacio debajo de los campos de entrada */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto; /* Centra horizontalmente los campos de entrada */
+}
+
+form textarea {
+    width: 80%; /* Cambia el ancho del textarea */
+    max-width: 400px; /* Establece un ancho máximo para el textarea */
+    padding: 10px;
+    margin: 0 auto; /* Centra horizontalmente el textarea */
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
+/* Estilos para el botón de "Enviar" */
 form button[type="submit"] {
-    background-color: #e74c3c;
-    color: #fff;
+    background-color: #007BFF; /* Cambia el color de fondo del botón Enviar */
+    color: #fff; /* Cambia el color del texto del botón Enviar a blanco */
     padding: 10px 20px;
     font-size: 18px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: block; /* Cambia el display a bloque para ponerlo debajo del formulario */
+    margin-top: 10px;/* Agrega margen superior para separarlo del formulario */
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 form button[type="submit"]:hover {
-    background-color: #c0392b;
+    background-color: #0056b3; /* Cambia el color de fondo en el hover */
 }
 
 
@@ -208,3 +243,5 @@ form button[type="submit"]:hover {
     margin: 20px auto; /* Alinea la línea horizontalmente y agrega espacio */
     width: 80%; /* Ancho de la línea */
 }
+
+

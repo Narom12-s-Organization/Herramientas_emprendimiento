@@ -36,7 +36,14 @@
 <section id="download">
     <h2>Descarga la Aplicación</h2>
     <p>Descarga nuestra aplicación móvil y disfruta de todas las características increíbles.</p>
-    <a href="#" class="cta-button">Descargar Ahora</a>
+    <div class="download-buttons">
+        <a href="#" class="app-store-button">
+            <img src="{% static 'images/app-store.png' %}" alt="App Store">
+        </a>
+        <a href="#" class="play-store-button">
+            <img src="{% static 'images/play-store.png' %}" alt="Google Play">
+        </a>
+    </div>
 </section>
 
 <section id="contact">
@@ -52,7 +59,9 @@
         <label for="message">Mensaje:</label>
         <textarea id="message" name="message" rows="4" required></textarea>
         
-        <button type="submit">Enviar</button>
+        <div class="submit-container">
+            <button type="submit">Enviar</button>
+        </div>
     </form>
 </section>
 {% endblock %}
